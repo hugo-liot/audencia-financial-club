@@ -1,0 +1,27 @@
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.pole {
+    margin-bottom: 20px;
+}
+
+.pole h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.pole img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .pole img {
+        max-width: 100%;
+    }
+}
